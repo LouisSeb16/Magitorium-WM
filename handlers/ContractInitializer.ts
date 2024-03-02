@@ -1,4 +1,5 @@
 import { JsonRpcProvider, ethers } from "ethers";
+import { IContractConfig } from "../interfaces/IContractInitializer";
 
 export default class ContractInitializer {
 
@@ -10,7 +11,7 @@ export default class ContractInitializer {
 
     private contract: ethers.Contract | undefined;
 
-    constructor(contractConfig: any) {
+    constructor(contractConfig: IContractConfig) {
 
         const { provider, contractAddress, contractABI } = contractConfig;
 
