@@ -1,0 +1,18 @@
+{
+  "name": "magitorium-wm",
+  "version": "1.0.0",
+  "description": "Defi Wallet Management tooling system",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "author": "Louismaria Ajuruchi",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "ethers": "^6.11.1"
+  }
+}
